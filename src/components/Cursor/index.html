@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	<div className='cusror'></div>
+	<div className='cusror2'></div>
+
+	<script>
+		var cursor = document.querySelector(".cursor");
+		var cursor2 = document.querySelector(".cursor2");
+		document.addEventListener("mousemove", function(e) {
+			cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+		})
+	</script>
+</body>
+</html>
