@@ -8,7 +8,7 @@
 	top: 0;
 	pointer-events: none;
 	transform: translate(-50%, -50%);
-	transition: .1s;
+	transition: .35s;
 	z-index: 999999;
 }
 
@@ -30,7 +30,7 @@
 .content:hover ~ .cursor {
 	transform: translate(-50%, -50%) scale(1.5);
 	background-color: #c6c6c6;
-	opacity: .55;
+	opacity: .5;
 }
 
 .content:hover ~ .cursor2 {
