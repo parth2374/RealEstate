@@ -22,7 +22,7 @@
 	top: 0;
 	pointer-events: none;
 	transform: translate(-50%, -50%);
-	transition: .15s;
+	transition: .65s;
 	z-index: 999999;
 	background-color: #c6c6c6;
 }
@@ -30,7 +30,7 @@
 .content:hover ~ .cursor {
 	transform: translate(-50%, -50%) scale(1.5);
 	background-color: #c6c6c6;
-	opacity: .5;
+	opacity: .55;
 }
 
 .content:hover ~ .cursor2 {
