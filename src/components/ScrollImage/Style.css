@@ -1,0 +1,82 @@
+/* body {
+	height: 100vh;
+}
+
+.containerHello {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background: url(/public/ScrollImage.jpg);
+	background-attachment: fixed;
+
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 5vw;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.containerHello {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background: url('/public/ScrollImage.jpg') no-repeat center center fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sliderFirst {
+  width: 300px; /* Set width according to your layout */
+  height: 60px; /* Adjust height as needed */
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid #ccc; /* Optional: for styling */
+  /* background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+}
+
+.slidesFirst {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%; /* Take full width of the slider */
+}
+
+.slideFirst {
+  width: 100%; /* Each slide takes full width of the slider */
+  flex-shrink: 0;
+  font-size: 24px; /* Adjust font size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure it takes full height */
+}

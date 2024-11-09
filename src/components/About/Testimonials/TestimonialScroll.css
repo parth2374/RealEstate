@@ -1,0 +1,15 @@
+.testimonialContainerScroll {
+	width: 100%;
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-image: url(/public/About/Testimonial.jpg);
+	background-attachment: fixed;
+
+	color: white;
+	display: flex;
+	position: relative;
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+}
